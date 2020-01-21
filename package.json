@@ -1,0 +1,27 @@
+{
+  "name": "TeamProfileGenerator",
+  "version": "1.0.0",
+  "description": "creates team profiles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neharichi/NodeExpressHandlebars/TeamProfileGenerator.git"
+  },
+  "author": "Neha",
+  "bugs": {
+    "url": "https://github.com/neharichi/TeamProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/neharichi/TeamProfileGenerator#readme",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.17.1",
+    "nodemon": "2.0.2",
+    "pg": "^7.17.1"
+  }
+}
